@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+}
+
+.cell {
+    border: solid 1px black;
+    width: 80px;
+    height: 80px;
+}
+
+.darkcell {
+    background-color: black;
+    border: solid 1px black;
+    width: 80px;
+    height: 80px;
+}
+
+.basiccell {
+    background-color: red;
+    border: solid 1px black;
+    width: 80px;
+    height: 80px;
+}
+
+#grid {
+    border: solid 1px black;
+    display: flex;
+    flex-direction: column;
+}
+
+.checker {
+    border: solid 1px white;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
